@@ -46,6 +46,9 @@ html, body {
 	}
 }
 
+@import "contacts/contacts";
 @import "components/title-h3";
 @import "components/tabs";
-@import "contacts/contacts.scss";
+@import "components/link";
+@import "components/form";
+@import "components/checkbox";
