@@ -1,5 +1,7 @@
 # vintage-test
 
+DEMO - http://vintage-vue-test.surge.sh/
+
 ## Project setup
 ```
 npm install
