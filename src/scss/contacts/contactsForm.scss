@@ -16,3 +16,11 @@
     }
   }
 }
+
+@include for-extra-small {
+  .contacts__form-section {
+    .contacts__row {
+      flex-direction: column-reverse;
+    }
+  }
+}

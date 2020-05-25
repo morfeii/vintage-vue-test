@@ -9,19 +9,43 @@
   		color: #fff;
   	}
   }
+
   .our-offices {
   	display: flex;
   	justify-content: center;
   	align-items: center;
   	width: 50%;
   }
+
   &__map {
   	position: absolute;
   	width: 48%;
   	right: 0;
   	height: 100%;
   }
+  
   &__tabs-titles {
   	max-width: 329px;
+  }
+}
+
+@include for-extra-small {
+  .contacts {
+    .offices-and-map {
+    	flex-direction: column;
+    	align-items: center;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+	}  
+	
+    .our-offices {
+    	width: auto;
+    	margin-bottom: 10px;
+	}  
+	
+    &__map {
+    	position: static;
+    	width: 100%;
+    }
   }
 }

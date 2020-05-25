@@ -6,6 +6,7 @@
     font-family: "SuisseIntl", sans-serif;
     font-weight: 400;
   }
+
   &__title {
     font-family: "SuisseIntl SemiBold", sans-serif;
     font-size: 11px;
@@ -14,14 +15,17 @@
     letter-spacing: 1.54px;
     text-transform: uppercase;
     transition: all .3s;
+
     &:hover {
     	cursor: pointer;
     }
+
     &.active {
     	color: $main-green;
     	font-weight: 600;
     }
   }
+
   &__place {
     font-size: 26px;
     font-weight: 300;
@@ -29,6 +33,7 @@
     letter-spacing: 1.18px;
     margin-bottom: 15px;
   }
+  
   &__address {
     font-size: 11px;
     line-height: 20px;

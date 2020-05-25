@@ -5,3 +5,15 @@
   font-size: 34px;
   line-height: 48px;
 }
+
+@include for-small {
+	.title-h3 {
+		font-size: 30px;
+	}
+}
+
+@include for-extra-small {
+	.title-h3 {
+		font-size: 30px;
+	}
+}
