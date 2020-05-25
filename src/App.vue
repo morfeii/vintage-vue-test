@@ -15,6 +15,7 @@ export default {
 };
 </script>
 
+<style lang="scss" src="./scss/style.scss"></style>
 <style lang="scss">
 #app {
   display: flex;
