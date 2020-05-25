@@ -1,0 +1,38 @@
+.tabs {
+  &__titles {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: "SuisseIntl", sans-serif;
+    font-weight: 400;
+  }
+  &__title {
+    font-family: "SuisseIntl SemiBold", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 72.34px;
+    letter-spacing: 1.54px;
+    text-transform: uppercase;
+    transition: all .3s;
+    &:hover {
+    	cursor: pointer;
+    }
+    &.active {
+    	color: $main-green;
+    	font-weight: 600;
+    }
+  }
+  &__place {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 1.18px;
+    margin-bottom: 15px;
+  }
+  &__address {
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    white-space: pre-line;
+  }
+}

@@ -1,5 +1,6 @@
 @import 'services/reset';
 @import 'services/variables';
+@import 'services/media';
 @import 'fonts';
 
 html, body {
@@ -10,11 +11,41 @@ html, body {
   font-family: "SuisseIntl", sans-serif;
   outline: none;
 }
+
 .container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
+
 .green-text {
   color: $main-green;
 }
+
+@include for-extra-small {
+	.container {
+		width: 97%;
+	}
+}
+
+@include for-small {
+	.container {
+		max-width: 760px;
+	}
+}
+
+@include for-medium {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@include for-large {
+	.container {
+		max-width: 1170px
+	}
+}
+
+@import "components/title-h3";
+@import "components/tabs";
+@import "contacts/contacts.scss";

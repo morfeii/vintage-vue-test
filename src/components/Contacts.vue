@@ -1,6 +1,10 @@
 <template>
   <div class="contacts">
-    <ContactsOffices />
+    <ContactsOffices
+      :currentTabs="tabs"
+      :currentMarkers="markers"
+      :currentStyle="style"
+    />
     <ContactsForm />
   </div>
 </template>
@@ -22,29 +26,29 @@ export default {
         {
           nameCity: 'Kyiv',
           place: 'Global Message Services Ukraine LLC',
-          address: 'Kyiv, Stepan Bandera, 33 \n 02066 \n Ukraine',
+          address: 'Kyiv, Zhylianska Street 75 | 8th Floor \n 01032 \n Ukraine',
         },
         {
-          nameCity: 'New York',
-          place: 'Stevens Institute of Technology',
-          address: 'New York, Hoboken \n NJ 07030\n  The USA',
+          nameCity: 'Moscow',
+          place: 'White Stone Buisness Centre',
+          address: 'Moscow, 4th Lesnoy lane | Building 4 \n 125047 \n Russia',
         },
         {
-          nameCity: 'Guangzhou',
-          place: 'Guangzhou Rural Commercial',
-          address: 'Guangzhou \n Huangpu \n China',
+          nameCity: 'Islamabad',
+          place: 'Manzoor Plaza',
+          address: 'Islamabad, Fazl-e-Haq Road, Blue Area \n 44000 \n Pakistan',
         },
         {
-          nameCity: 'Barcelona',
-          place: 'Palau de la Generalitat de Catalunya',
-          address: 'Barcelona, Plaça de Sant Jaume, 4 \n 08002 \n Spain',
+          nameCity: 'Singapour',
+          place: 'The JTC Summit',
+          address: 'Singapour, 8 Jurong Town Hall Road, #24-05 \n 609434 \n Singapour',
         },
       ],
       markers: {
-        Kyiv: { lat: 50.4891897, lng: 30.4873203 },
-        'New York': { lat: 40.7341777, lng: -74.131975 },
-        Guangzhou: { lat: 23.3278454, lng: 113.1255902 },
-        Barcelona: { lat: 41.383962, lng: 2.1740104 },
+        Kyiv: { lat: 50.4389385, lng: 30.4965788 },
+        Moscow: { lat: 55.7790131, lng: 37.5846818 },
+        Islamabad: { lat: 33.7209905, lng: 73.0775286 },
+        Singapour: { lat: 1.3313375, lng: 103.739381 },
       },
       style,
     };

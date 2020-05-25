@@ -1,0 +1,27 @@
+.contacts {
+  .offices-and-map {
+  	display: flex;
+  	height: 500px;
+  	background: $gray3;
+  	color: #fff;
+  	position: relative;
+  	.title-h3 {
+  		color: #fff;
+  	}
+  }
+  .our-offices {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 50%;
+  }
+  &__map {
+  	position: absolute;
+  	width: 48%;
+  	right: 0;
+  	height: 100%;
+  }
+  &__tabs-titles {
+  	max-width: 329px;
+  }
+}

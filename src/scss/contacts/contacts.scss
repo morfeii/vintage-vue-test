@@ -1,0 +1,21 @@
+.contacts {
+  width: 100%;
+  background-color: #fff;
+  font-family: 'SuisseIntl', sans-serif;
+  font-weight: 300;
+  &__title {
+  	color: $gray1;
+  	font-size: 50px;
+  	line-height: 48px;
+  }
+  &__header {
+  	margin-bottom: 50px;
+  }
+  &__row {
+  	display: flex;
+  	justify-content: space-between;
+  	height: 100%;
+  }
+}
+@import "contactsOffices";
+@import "contactsForm";
